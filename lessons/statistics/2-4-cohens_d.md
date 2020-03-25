@@ -1,6 +1,8 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
->>import nsfg as ns
+'''python
+
+import nsfg as ns
 import math
 
 def CohensD(group1, group2):
@@ -23,3 +25,5 @@ if __name__ == '__main__':
 
     d = CohensD(first['totalwgt_lb'], others['totalwgt_lb'])
     print('Cohen\'s D:', d)
+
+'''

@@ -18,14 +18,14 @@
 >    thinkplot.Pmfs([pmf1, pmf2]) <br>
         
 <p>
-> resp = nsfg.ReadFemResp()
-> under18 = resp.numkdhh
+resp = nsfg.ReadFemResp()
+under18 = resp.numkdhh
 
-> under18_pmf = ts2.Pmf(under18)
-> biased18_pmf = biased_pmf(under18_pmf, label='observed')
+under18_pmf = ts2.Pmf(under18)
+biased18_pmf = biased_pmf(under18_pmf, label='observed')
 
-> print(under18_pmf.Mean())
-> print(biased18_pmf.Mean())
+print(under18_pmf.Mean())
+print(biased18_pmf.Mean())
 
-> graph_pmf(under18_pmf,biased18_pmf)
+graph_pmf(under18_pmf,biased18_pmf)
 </p>

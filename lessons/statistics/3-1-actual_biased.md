@@ -3,9 +3,9 @@
 >> 
 
 
-> def biased_pmf(pmf, label):
+> def biased_pmf(pmf, label):<br>
 >    '''Input: unbiased PMF
->    Output: copy of pmf with bias PMF'''
+>    Output: copy of pmf with bias PMF''' <br>
 >    new_pmf = pmf.Copy(label=label)
     
 >    for x, p in pmf.Items():

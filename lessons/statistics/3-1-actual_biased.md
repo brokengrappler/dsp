@@ -1,6 +1,8 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
 >> 
+
+'''
 def biased_pmf(pmf, label):
     '''Input: unbiased PMF
     Output: copy of pmf with bias PMF'''
@@ -26,3 +28,4 @@ print(under18_pmf.Mean())
 print(biased18_pmf.Mean())
 
 graph_pmf(under18_pmf,biased18_pmf)
+'''

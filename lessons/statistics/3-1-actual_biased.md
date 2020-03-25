@@ -6,18 +6,18 @@
 > def biased_pmf(pmf, label):<br>
 > <t>    '''Input: unbiased PMF
 > <t>   Output: copy of pmf with bias PMF''' <br>
-> <t>   new_pmf = pmf.Copy(label=label)
+> <t>   new_pmf = pmf.Copy(label=label) <br>
     
->    for x, p in pmf.Items():
->        new_pmf.Mult(x,x)
+>    for x, p in pmf.Items(): <br>
+>        new_pmf.Mult(x,x) <br>
 
->    new_pmf.Normalize()
->   return new_pmf
+>    new_pmf.Normalize() <br>
+>   return new_pmf <br>
 
-> def graph_pmf(pmf1, pmf2):
->    thinkplot.Pmfs([pmf1, pmf2])
+> def graph_pmf(pmf1, pmf2): <br>
+>    thinkplot.Pmfs([pmf1, pmf2]) <br>
         
-
+<p>
 > resp = nsfg.ReadFemResp()
 > under18 = resp.numkdhh
 
@@ -28,4 +28,4 @@
 > print(biased18_pmf.Mean())
 
 > graph_pmf(under18_pmf,biased18_pmf)
-
+</p>

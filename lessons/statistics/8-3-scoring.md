@@ -44,6 +44,6 @@ x = goal_counts['goals']
 y = goal_counts['prob']
 plt.bar(x,y)
 ```
-![8.3PMF.png](https://github.com/brokengrappler/dsp/edit/master/lessons/statistics/8.3PMF.png)
+![Probability Mass Function](https://github.com/brokengrappler/dsp/edit/master/lessons/statistics/8.3PMF.png)
 
 ---

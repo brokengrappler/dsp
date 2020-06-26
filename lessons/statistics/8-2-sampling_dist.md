@@ -25,7 +25,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 sns.distplot(means)
-
+```
+![Distribution](https://github.com/brokengrappler/dsp/blob/master/lessons/statistics/8.2PDF)
+```python
 #standard error and CI of 90%
 MSE = [(estimate-lam)**2 for estimate in means]
 RSM = math.sqrt(np.mean(MSE))
@@ -42,3 +44,4 @@ lowCI = lam - RSM*1.645
 upCI = lam + RSM*1.645
 print(lowCI,upCI)
 ```
+![CDF](https://github.com/brokengrappler/dsp/blob/master/lessons/statistics/8.2CDF)
